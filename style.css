@@ -202,3 +202,20 @@ footer p{
     .profile{ grid-column: 1/-1;}
     #contact{ grid-column: 1/-1;}
 }
+.profile {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center;
+    text-align: center !important;
+}
+
+/* Membuat foto profile menjadi bulat dan berada di tengah */
+#profile img {
+    width: 180px !important;
+    height: 180px !important;
+    object-fit: cover;
+    border-radius: 50% !important;
+    border: 4px solid #17694a;
+    display: block;
+    margin: 0 auto;
+}
